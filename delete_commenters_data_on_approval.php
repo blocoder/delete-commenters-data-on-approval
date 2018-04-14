@@ -1,6 +1,11 @@
+<?php
 /**
  * ACHTUNG: Funktioniert nur, wenn die Kommentare manuell im WordPress-Backend freigegeben werden.
- * Installation: Dieses Script einfach in die functions.php des aktiven Themes kopieren.
+ * Installation, Möglichkeit a): 
+ * Dieses Script einfach in die functions.php des aktiven Themes kopieren.
+ * Installation, Möglichkeit b): 
+ * Diese Datei als "Must Use"-Plugin in den Ordner "\wp-content\mu-plugins" kopieren. 
+ * Der Ordner "mu-plugins" muss ggf. erst erstellt werden.
  */
 
 if ( !function_exists('pcl_action_wp_set_comment_status') ) :
