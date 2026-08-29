@@ -1,3 +1,7 @@
+---
+type: instruction
+---
+
 # delete-commenters-data-on-approval
 
 ## Zweck
