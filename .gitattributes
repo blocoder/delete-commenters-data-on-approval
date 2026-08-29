@@ -1,0 +1,6 @@
+# Line endings are decided here, not by the machine that happens to touch a
+# file last: Windows Git runs with core.autocrlf=true, the WSL sets nothing,
+# and both work on the same files under /mnt/c. The ending follows where a file
+# is EXECUTED, not where it is edited -- see git-zeilenenden.md.
+
+* text=auto eol=lf
